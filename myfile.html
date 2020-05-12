@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form-page</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+  </head>
+
+  <style>
+  *{
+    padding: 5px;
+  }
+
+  body{
+    background-image: url(point/Signs-of-light.jpg);
+    background-position: cover;
+    padding: 100px 250px;
+    margin: 0px 150px;
+  }
+
+#mypics{
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+  #form-input header{
+    text-transform: uppercase;
+    font-family: all;
+    font-size: 24px;
+    padding-top: 120px;
+    margin: 20%;
+    word-spacing: normal;
+    color: rgb(204, 133, 177);text-decoration: underline;
+    text-align: center;
+    }
+
+  .input-form2{
+    color: rgb(252, 236, 146);
+    margin: 20%;
+    word-spacing: 2em;
+    line-height: 2em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: georgia;
+  }
+  .input-form2 input[type="text"]{
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  #mainsub, #mainret{
+    background-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold ;
+    width: 100px;
+    height: 5vh;
+    margin: 5px;
+    color: maroon;
+    cursor: pointer;
+  }
+
+   /* #my pics{
+     border-image: url(point/Uwa.jpg);
+     border-color: inherit;
+     background-position: center;
+     background-size: auto;
+     width: auto;
+     position: absolute;
+   }
+    */
+  .footer-main{
+    padding: inherit;
+    margin: auto;
+  }
+
+  #page-header{
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 60%;
+    margin: 0px;
+    text-transform: capitalize;
+    word-spacing: normal;
+    line-height: 1.2em;
+    color: orange;
+  }
+
+#box-1 p{
+  color: powderblue;
+  line-height: 1.6em;
+  letter-spacing: normal;
+  word-spacing: 0.4em;
+}
+/*
+p{
+  line-height: 0.1em;
+  padding: 0px;
+}
+
+ .my-qoute{
+  color: brown;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+  font-style: italic;
+}
+ */
+ </style>
+  <body id="form-input">
+    <img id="mypics" src="point/Nativeboi.jpg" width="140px"; height="200px";>
+    <!-- The header are hidden so as to allow the image ocupy the center position of form -->
+    <!-- <header>Registration Form</header> -->
+     <form class="input-form2">
+      Firstname:<br>
+       <input type="text" name="" Firstname="" required><br>
+         Lastname:<br>
+           <input type="text" name="" Lastname="" required></br>
+           Email:
+            <input type="email" name="email" Email="" required></br>
+             <input type="submit" id="mainsub" name="" submit="">
+              <input type="reset" id="mainret" name="" reset="">
+        <footer id="page-header">
+          &copy;copyright 2019 designed by Rankshow</footer>
+    
+  </body>
+</html>
